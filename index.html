@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+<script src="main.js"></script>
+	<title></title>
+</head>
+	<body>
+		<input type='number' id='input_1' />
+		<input type='number' id='input_2' />
+		<button onclick="add()">+</button>
+		<button onclick="subtract()">-</button>
+		<button onclick="multiply()">*</button>
+		<button onclick="divide()">/</button>
+		<button onclick="expo()">^</button>
+		<br />
+		<br />
+		<div>
+			<label class="border" id="output"></label>
+		</div>
+		<br />
+		<br />
+		<label>Last Answer: </label>
+		<br/>
+		<label id='last_answer'></label>
+		<br />
+		<br />
+		<a HREF="javascript:history.go(0)"><button>Clear the Calculator</button></a>
+		<button onclick="undo()">Undo Last Calculation</button>
+	</body>
+</html>
